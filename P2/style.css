@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Center the image */
+}
+
+.index-intro {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.index-categories {
+    margin-top: 30px;
+}
+
+.index-categories-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.index-categories-list div {
+    width: 30%;
+    margin: 10px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Add more styles as needed */
